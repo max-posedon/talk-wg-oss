@@ -1,0 +1,117 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{pgfpages}
+\usepackage{ulem}
+\usepackage{float}
+\usepackage{amsmath}
+
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{author}{fg=white}
+\setbeamercolor{normal text}{fg=black}
+\setbeamercolor{frametitle}{fg=black}
+\setbeamercolor{item}{fg=red}
+\setbeamercolor{block title}{fg=red}
+\setbeamercolor{section in toc}{fg=red}
+\setbeamercolor{footline}{fg=white}
+\setbeamercolor{title in head/foot}{fg=white,bg=black}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{headline}{
+    \includegraphics[height=1mm, width=\paperwidth]{wg-headline.png}
+}
+
+\setbeamertemplate{footline}{
+    \begin{beamercolorbox}[ht=1.2em]{title in head/foot}
+        {\footnotesize \hspace{1em}\inserttitle, \insertshortauthor}
+    \end{beamercolorbox}
+}
+
+
+\begin{document}
+
+\title{Wargaming.net And Open Source Software}
+\author{Maksim Melnikau (max\_posedon)}
+\date{}
+
+{
+
+\title{
+    \includegraphics[width=0.4\textwidth]{wg-logo.png}\\
+    {\Huge Wargaming.net\\And\\Open Source Software}
+}
+\author{Maksim Melnikau (max\_posedon)}
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{wg-end.jpg}}
+\begin{frame}[plain]{}
+    \titlepage
+\end{frame}
+
+}
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth]{wg-bg.jpg}}
+\logo{
+    \includegraphics[height=1.7cm]{wg-logo.png}
+}
+
+{
+\logo{}
+
+\begin{frame}{}
+    \begin{figure}[htb]
+    \includegraphics[height=0.8\textheight]{wg-logo.png}
+    \end{figure}
+\end{frame}
+}
+
+\begin{frame}{Linux}
+    \begin{figure}[htb]
+    \includegraphics[height=0.8\textheight]{tux.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{}
+    \begin{figure}[htb]
+    \includegraphics[width=\textwidth]{python.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{}
+    \begin{figure}[htb]
+    \includegraphics[width=\textwidth]{django.png}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Wikipedia}
+    \begin{figure}[htb]
+    \includegraphics[height=0.8\textheight]{wikimedia.png}
+    \end{figure}
+\end{frame}
+
+{
+\setbeamertemplate{footline}{}
+
+\setbeamercolor{frametitle}{fg=white}
+\setbeamercolor{normal text}{fg=white}
+\setbeamercolor{block title}{fg=white}
+\setbeamercolor{block body}{fg=red}
+
+\usebackgroundtemplate{\includegraphics[height=\paperheight]{wg-end.jpg}}
+\begin{frame}{Thank You. Questions}
+    \begin{block}{Maksim Melnikau}
+    \par \url{mailto:m\_melnikau@wargaming.net}
+    \par \url{https://plus.google.com/114669104565190507739/}
+    \par \url{https://twitter.com/max\_posedon}
+    \par \url{http://wargaming.com}
+    \par \url{https://www.djangoproject.com/foundation/corporate-members/}
+    \par \url{http://www.linuxfoundation.org/about/members}
+    \par \url{http://wikimediafoundation.org/wiki/Benefactors}
+    \par \url{http://it.tut.by/349762}
+    \end{block}
+\end{frame}
+}
+
+\end{document}
+
